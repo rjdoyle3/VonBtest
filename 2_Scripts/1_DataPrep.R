@@ -11,7 +11,7 @@
 
 
 #Set Paths
-main_path<-"C:/Users/EU01237640/OneDrive - State of Minnesota - MN365/GitExample/VonBExample/" #Point this to where the folders for analysis are
+main_path<-"C:/Users/EU01242075/OneDrive - State of Minnesota - MN365/GitExample/VonBExample/" #Point this to where the folders for analysis are
 dat_path<-paste0(main_path,"1_Data/")
 code_path<-paste0(main_path,"2_Scripts/")
 out_path<-paste0(main_path,"3_Output/")
@@ -59,7 +59,7 @@ dater[dater[,"weight"]<exp(LW_predint[,"lwr"]) | dater[,"weight"]>exp(LW_predint
 
 #Plot it out to double check
 windows()
-  colz<-c("darkgrey","steelblue")
+  colz<-c("darkgrey","forestgreen")
   out_index<-dater[,"outlier"]==1
   plot(dater[!out_index,"lengthz"],dater[!out_index,"weight"],pch=19,col=adjustcolor(colz[1],0.1),xlab="length (mm)",ylab = "weight (g)")
   points(dater[out_index,"lengthz"],dater[out_index,"weight"],pch=19,col=adjustcolor(colz[2],0.1))
