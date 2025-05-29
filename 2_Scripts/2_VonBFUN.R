@@ -33,27 +33,27 @@ VonBFUN<-function(params,Age,L,optimize=TRUE){
 #Bayesian via RTMB Method#
 ##########################
 # VonBFUN_Bayes<-function(params){
-#   
+# 
 #   getAll(dater,params)
 #   lengthz<-OBS(lengthz)
-#   
+# 
 #   #Priors - no uniform implementation with %~%
 #   #.nll<-0
 #   #nll_linf<-(Linf<0||Linf>1000)*log(0.000001)+(Linf>=0&&Linf<=1000)*log((1/(1000-0)))
 #   #.nll<-.nll-nll_linf
-#   
-#   
+# 
+# 
 #   Linf %~% dnorm(mean = 500,sd = 20)
 #   k %~% dnorm(mean = 0, sd=50)
 #   t0 %~% dnorm(mean = 0, sd=50)
 #   sdeps %~% dgamma(shape = 0.001,scale = 0.001)
-#   
-#   
+# 
+# 
 #   pred_L<-Linf*(1-exp(-k*(age-t0)))
 #   lengthz %~% dnorm(mean = pred_L,sd = sdeps)
-#   
+# 
 #  #return(.nll)
-#   
+# 
 #   }
 
 

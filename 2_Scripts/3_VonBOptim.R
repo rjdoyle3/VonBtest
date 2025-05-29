@@ -12,7 +12,7 @@
 #require("tmbstan")
 
 #Set Paths
-main_path<-"C:/Users/EU01237640/OneDrive - State of Minnesota - MN365/GitExample/VonBExample/" #Point this to where the folders for analysis are
+main_path<-"C:/Users/EU01242075/OneDrive - State of Minnesota - MN365/GitExample/VonBExample/" #Point this to where the folders for analysis are
 dat_path<-paste0(main_path,"1_Data/")
 code_path<-paste0(main_path,"2_Scripts/")
 out_path<-paste0(main_path,"3_Output/")
